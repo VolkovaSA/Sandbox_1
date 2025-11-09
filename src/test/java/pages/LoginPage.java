@@ -24,7 +24,6 @@ public class LoginPage {
     }
 
     public void login(String zipCode) {
-        browser.get("https://www.sharelane.com/cgi-bin/register.py");
         browser.findElement(ZIP_CODE_FIELD).sendKeys(zipCode);
         browser.findElement(CONTINUE).click();
     }
