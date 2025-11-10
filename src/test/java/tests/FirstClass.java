@@ -1,7 +1,6 @@
 package tests;
 
 import org.testng.annotations.Test;
-
 import static org.testng.Assert.*;
 
 
@@ -22,7 +21,3 @@ public class FirstClass extends BaseTest {
         assertEquals(loginPage.checkErrorMsg(), "Oops, error on page. ZIP code should have 5 digits");
     }
 }
-/*        Alert alert = browser.switchTo().alert();
-        alert.accept();
-        browser.switchTo().frame(1);
-        browser.switchTo().defaultContent();*/
